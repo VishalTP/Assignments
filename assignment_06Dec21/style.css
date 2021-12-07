@@ -1,0 +1,32 @@
+body{
+    background-color: #9FAD97;
+}
+#p1{
+    text-align: left;
+}
+#p2{
+    text-align: center;
+}
+#p3{
+    text-align: right;
+}
+#p4{
+    color: green;
+}
+#p5{
+    font-family: Trebuchet;
+}
+#p6{
+    font: xxx-large 'Times New Roman';
+    margin: 1px;
+}
+#p7{
+    font: small 'Arial';
+    color: white;
+}
+div{
+    text-align: center;
+}
+.img{
+    margin: 5px;
+}
