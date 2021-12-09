@@ -7,16 +7,15 @@
 .box_b{
     width: 940px;
     height: 100px;
-    opacity: .8;
     
 }
 .box_s{
     width: 220px;
     height: 220px;
-    
 }
 .box{
     margin: 15px 10px;
     float: left;
     background-color: #7F7F7F;
+    opacity: .8;
 }
