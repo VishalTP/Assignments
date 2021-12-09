@@ -1,0 +1,36 @@
+.ta-c{
+    text-align: center;
+    margin: auto;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0px; 
+    width: 60%;
+}
+td{
+    font-size: x-large;
+    border: 2px solid black;
+}
+.table1 td:first-child{
+    text-align: left;
+}
+.table1 td:nth-child(3){
+    text-align: right;
+}
+.td-w{
+    width: 50%;
+}
+.bc-g{
+    background-color: rgb(52, 168, 52);
+}
+.bc-b{
+    background-color: blue;
+}
+.td-i{
+    width:40%;
+    padding:0px;
+}
+p{
+    margin: 25px;
+}
