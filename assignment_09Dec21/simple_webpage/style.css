@@ -1,0 +1,41 @@
+body{
+    background-color: #CBD6CB;
+}
+.container{
+    width: 79%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.top{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.img-top{
+    width:100%;
+}
+.left, .right{
+    padding: 30px;
+    text-align: center;
+    width: 20%;
+}
+.middle{
+    text-align: center;
+    width: 45%;
+}
+p{
+    font-size: x-large;
+}
+.img-w{
+    width: 230px;
+}
+span{
+    font-weight: bold;
+}
+.a-g{
+    color: green;
+}
+.a-c{
+    color: #006666;
+}
