@@ -1,5 +1,5 @@
 .container{
-    width: 80%;
+    width: 1000px;
     margin: auto;
     font-family: sans-serif;
     padding: 0px 10px;
@@ -63,7 +63,6 @@
 }
 ._24x7{
     width: 300px;
-    /* text-align: end; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -91,18 +90,7 @@ hr{
 span{
     margin-left: 250px;
 }
-.footer{
-    width: 100%;
-}
-.f-l{
-    font-size: small;
-    background-color: #fcb016;
-}
-.footer span{
-    background-color: white;
-    margin: auto;
-    padding: 0px 30px;
-}
+
 .seal{
     width: 150px;
     padding-top: 30px;
@@ -111,18 +99,33 @@ span{
 .seal img{
     width: 100%;
 }
-.conditions, li{
-    font-size: xx-small;
-}
-.f-l2{
-    padding: 2px;
-    text-align: center;
-    font-size: medium;
-    font-weight: bold;
-    background-color: #fcb016;
-}
 .sign{
     margin-top: 1px;
     text-align: right;
     margin-right: 50px;
+}
+@media  (max-width:800px) {
+    .container{
+        width: 100%;
+        font-size: medium;
+    }
+    .content{
+        width: 95%;
+    }
+}
+@media  (max-width:650px) {
+    .container{
+        font-size: small;
+    }
+}
+
+@media  (max-width:500px) {
+    .container{
+        font-size: x-small;
+    }
+}
+@media  (max-width:359px) {
+    .container{
+        font-size: 8px;
+    }
 }
