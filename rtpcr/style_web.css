@@ -12,9 +12,11 @@
     border-bottom: 7px solid #fcb016;
 }
 .icon{
+    height: auto;
     width:25%
 }
 .nabl{
+    height: auto;
     width:7%
 }
 .content{
