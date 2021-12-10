@@ -117,14 +117,21 @@ span{
     .container{
         font-size: small;
     }
+    span{
+        margin-left: 200px;
+    }
 }
 
 @media  (max-width:500px) {
     .container{
         font-size: x-small;
     }
+    span{
+        margin-left: 140px;
+    }
 }
-@media  (max-width:359px) {
+
+@media  (max-width:362px) {
     .container{
         font-size: 8px;
     }
