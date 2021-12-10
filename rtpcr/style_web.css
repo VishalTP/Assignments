@@ -1,0 +1,128 @@
+.container{
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+    padding: 0px 10px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 7px solid #fcb016;
+}
+.icon{
+    width:25%
+}
+.nabl{
+    width:7%
+}
+.content{
+    width:88%;
+    margin: auto;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.details table{
+    margin-top: 10px;
+}
+.details td, .details th{
+    text-align: left;
+}
+.table_main{
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table_main td,.table_main th{
+    padding: 8px;
+    border: 2px solid black;
+    width: 50%;
+}
+
+.content2{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.qr{
+    width: 300px;
+    margin-left: 10px;
+}
+.qr img{
+    width: 50%;
+}
+._24x7 img{
+    width: 50%;
+    height: 100px;
+}
+._24x7{
+    width: 300px;
+    /* text-align: end; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+p{
+    text-align: justify;
+}
+.hr_b{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.hr_b p{
+    margin: 5px;
+}
+hr{
+    border: 1px solid black;
+}
+.p_align{
+    text-align: center;
+}
+span{
+    margin-left: 250px;
+}
+.footer{
+    width: 100%;
+}
+.f-l{
+    font-size: small;
+    background-color: #fcb016;
+}
+.footer span{
+    background-color: white;
+    margin: auto;
+    padding: 0px 30px;
+}
+.seal{
+    width: 150px;
+    padding-top: 30px;
+    margin: auto;
+}
+.seal img{
+    width: 100%;
+}
+.conditions, li{
+    font-size: xx-small;
+}
+.f-l2{
+    padding: 2px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #fcb016;
+}
+.sign{
+    margin-top: 1px;
+    text-align: right;
+    margin-right: 50px;
+}
