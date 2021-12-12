@@ -61,4 +61,7 @@ body{
     .card2{
         width:100%
     }
+    .left, .right{
+        width: 100%;
+    }
 }
