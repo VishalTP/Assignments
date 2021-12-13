@@ -2,23 +2,24 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: linear-gradient(to top,rgba(194, 174, 246, 0.5), rgba(194, 174, 246, 0) );
+    background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
 }
 .container{
-    font-family: 'Open Sans', sans-serif;
-    /* height: 980px; */
+    
     width: 70%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
     font-size: 25px;
     padding-top: 20px;
+}
+.card4{
+    position: relative;
 }
 .name{
     width: 100%;
 }
 .m-n-p{
-    margin: 5px;
+    margin: 5px 0px;
     padding: 10px;
 }
 .w-49{
@@ -42,18 +43,42 @@ body{
     font-size: 50px;
     color: white;
     background-color: orange;
-    border-radius: 3px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius:35px ;
+    margin-bottom: 0px;
+    padding: 0px 12px;
 }
-@media (max-width: 600px){
+.card4 button{
+    position: absolute;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    padding: 10px 20px;
+    right: 2%;
+    z-index: 1;
+}
+@media(max-width:1200px){
+    .container{
+        width: 85%;
+    }
+}
+@media(max-width:1000px){
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width: 800px){
     .container{
         width: 100%;
     }
     .name{
-        /* flex-shrink: 0; */
         width :100%
     }
     .name p{
-        width: 100%;
+        width: 97%;
+
     }
     .card1{
         width: 100%;
