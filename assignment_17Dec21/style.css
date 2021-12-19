@@ -35,12 +35,13 @@ span{
 }
 .home{
     background-image: url("https://duttrohan0302.github.io/dec16_bootstrapUI/images/image2.jpg" );
+}
+.bg-img{
     background-size: cover;
     background-attachment: fixed;
 }
 .home h1{
     font-size: 50px;
-    font-family: 'Righteous', cursive;
     margin: 100px 0px 20px 0px;
 }
 .home p{
@@ -59,11 +60,8 @@ span{
 }
 .events{
     background-image: url(https://duttrohan0302.github.io/dec16_bootstrapUI/images/image3.jpg);
-    background-size: cover;
-    background-attachment: fixed;
 }
 .events h1{
-    font-family: 'Righteous', cursive;
     margin: 100px 0px 50px 0px;
 }
 .events p{
@@ -83,14 +81,10 @@ span{
 .font-bold{
     font-weight: bold;
 }
-.gallery div{
-    text-align: left;
-}
+
 .gallery h3{
     width: 100%;
-    text-align: left;
     margin-top: 20px;
-    /* display: inline-block; */
 }
 .gallery p{
     color: rgba(0, 0, 0, 0.59);
@@ -109,16 +103,13 @@ span{
 .pages{
     background-color: #343a40;
 }
-.pages div, .pages h1{
-    text-align: left;
-}
+
 .pages .col-lg-6{
     padding-left: 50px;
 }
 .pages p{
     margin-top: 40px;
     font-size: 22px;
-    text-align: left;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .pages button{
@@ -127,13 +118,12 @@ span{
     background-color: green;
     border-radius: 12px;
 }
-.contactus .container{
+.font-rig{
     font-family: 'Righteous', cursive;
 }
 input{
     width: 30%;
     padding: 4px;
-    text-align: left;
 }
 .icons{
     margin-top: 50px;
@@ -149,4 +139,7 @@ input{
 }
 .yt{
     color: rgb(255,0,0);
+}
+.ta-l{
+    text-align: left;
 }
