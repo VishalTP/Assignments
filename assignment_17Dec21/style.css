@@ -1,0 +1,152 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.navbar{
+    background-color: white !important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar a{
+    margin: 10px;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+span{
+    color: #00E8E8;
+}
+.menu-right-btn{
+    border: 1px solid #dee2e6;
+    padding: 13px 40px;
+}
+.menu-right-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: aqua;
+}
+.container{
+    padding: 5% 7%;
+}
+.home{
+    background-image: url("https://duttrohan0302.github.io/dec16_bootstrapUI/images/image2.jpg" );
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home h1{
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    margin: 100px 0px 20px 0px;
+}
+.home p{
+    font-size: 18px;
+}
+.home button{
+    padding: 16px 10px;
+    margin: 20px 20px 100px 0px;
+}
+.features p{
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.59);
+}
+.events{
+    background-image: url(https://duttrohan0302.github.io/dec16_bootstrapUI/images/image3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.events h1{
+    font-family: 'Righteous', cursive;
+    margin: 100px 0px 50px 0px;
+}
+.events p{
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.events button{
+    width: 220px;
+    height: 50px;
+    margin-bottom: 100px;
+}
+
+.font-col{
+    color: white;
+}
+.font-bold{
+    font-weight: bold;
+}
+.gallery div{
+    text-align: left;
+}
+.gallery h3{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    /* display: inline-block; */
+}
+.gallery p{
+    color: rgba(0, 0, 0, 0.59);
+    text-align: justify;
+}
+.gallery i{
+    color: lightseagreen;
+    padding-top: 5px;
+}
+.flex{
+    display: flex;
+}
+.image img{
+    width: 100%;
+}
+.pages{
+    background-color: #343a40;
+}
+.pages div, .pages h1{
+    text-align: left;
+}
+.pages .col-lg-6{
+    padding-left: 50px;
+}
+.pages p{
+    margin-top: 40px;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.pages button{
+    padding: 4px 17px;
+    font-size: 40px;
+    background-color: green;
+    border-radius: 12px;
+}
+.contactus .container{
+    font-family: 'Righteous', cursive;
+}
+input{
+    width: 30%;
+    padding: 4px;
+    text-align: left;
+}
+.icons{
+    margin-top: 50px;
+}
+.fb{
+    color: rgb(66,103,178);
+}
+.tw{
+    color: rgb(85,172,239);
+}
+.ins{   
+        color: #007bff;
+}
+.yt{
+    color: rgb(255,0,0);
+}
