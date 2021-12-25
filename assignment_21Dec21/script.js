@@ -1,6 +1,7 @@
-add = ()=>{
-    display.innerText+=document.getElementById("seven").innerText;
- }
- clearoff = ()=>{
-    display.innerText='';
- }
+let display = document.getElementById("clearall")
+let cell = Array.from(document.getElementsByClassName("cell"))
+
+clearall = ()=>{
+   display.innerText='';
+} 
+console.log(cell)
