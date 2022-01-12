@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh; 
+    background: linear-gradient(to bottom, #2e102f, #fcbefc) 
+}
+
+.container{
+    width: 80%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    background-color: purple;
+}
+
+button:active{
+    transform: scale(1.02);
+}
