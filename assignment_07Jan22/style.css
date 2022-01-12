@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.input{
+    display: flex;
+    background-color: white;
+}
+input{
+    width: 18rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    transition: all .2s linear;
+}
+.display{
+    width: 0;
+}
+button{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: white;
+}
