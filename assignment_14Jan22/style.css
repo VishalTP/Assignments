@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: darksalmon;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    position: absolute;
+    align-self: center;
+}
+
+input{
+    align-self: flex-end;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+}
