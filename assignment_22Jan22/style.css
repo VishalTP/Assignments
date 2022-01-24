@@ -35,6 +35,7 @@ body{
     border: 1px solid #eee;
     border-radius: 5px;
     margin: .2rem;
+    caret-color: transparent;
 }
 
 input::-webkit-inner-spin-button {
