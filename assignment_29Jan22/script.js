@@ -1,9 +1,8 @@
 const button = document.querySelector("button"),
       table = document.querySelector("table")
 
-let diceRollHistory = [],
-  flag = 0,
-  f2 = 0,
+let diceRollHistory,
+  flag ,
   winner
 
 let positionHistory = []
@@ -17,6 +16,7 @@ const addTd = (tr, i)=>{
 const addTr = (players, diceRollHistory, positionHistory)=>{
     for(let i=0; i<players; i++){
         let tr = document.createElement("tr")
+        tr.classList.add("details")
         addTd(tr,i+1)
         addTd(tr, diceRollHistory[i][diceRollHistory[i].length-1])
    
@@ -35,8 +35,18 @@ const addTr = (players, diceRollHistory, positionHistory)=>{
       }
 }
 
-const startGame = (gridSize, players, grids)=>{
+const initialise = ()=>{
+    let details = document.querySelectorAll(".details")
+    if(details)
+        details.forEach(detail=>{
 
+            detail.remove()
+        })
+    diceRollHistory = [], flag=0, winner = ""
+}
+
+const startGame = (players, grids)=>{
+    initialise()
     for (let i = 0; i < players; i++){ 
         diceRollHistory[i] = [];
         positionHistory[i] = []
@@ -75,9 +85,7 @@ button.addEventListener("click", (e) => {
 
   e.preventDefault();
 
-  startGame(gridSize, players, grids)
-
-  
+  startGame(players, grids)
 
   addTr(players, diceRollHistory, positionHistory)
 });
