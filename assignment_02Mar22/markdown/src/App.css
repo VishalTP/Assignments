@@ -1,0 +1,22 @@
+body{
+  background-color: #e8eaf1;
+}
+.App {
+  min-height: 100vh;
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+textarea{
+  background-color: #eff1f5;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.preview{
+  padding: 0 20px;
+}
