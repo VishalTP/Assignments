@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(148, 84, 207);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 700px;
+  background-color: #f1eded;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+
+img{
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+/* button{
+  font-size: 1.5rem;
+  padding: .5rem;
+  border: none;
+  width: 100%;
+  background-color: rgb(109, 189, 109);
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+} */
